@@ -1,0 +1,17 @@
+class father():
+    def fun1(self):
+        print("i have {father} 150cr")
+class son1(father):
+    def fun2(self):
+        print("i have 50cr")
+class son2(father):
+    def fun3(self):
+        print("i have 60 cr")
+class son3(father):
+    def fun4(self):
+        print("i have 40 cr")
+ob=son3()
+ob.fun4()
+ob.fun1()
+ob=son2()
+ob.fun1()
