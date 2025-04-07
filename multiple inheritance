@@ -1,0 +1,13 @@
+class father():
+    def fun1(self):
+        print("i can do job")
+class mother():
+    def fun2(self):
+        print("i can cook")
+class son(father,mother):
+    def fun3(self):
+        print("i can play")       
+ob=son()
+ob.fun2()
+ob.fun1()
+ob.fun3()
