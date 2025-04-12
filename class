@@ -1,0 +1,13 @@
+c=30
+class Hello():
+    def __init__(self): #constructor
+        self.a=10
+        self.b=20
+    def fun1(self):
+        print(self.a)
+        print(c)
+    def fun2(self):
+        print(self.b)
+ob=Hello()
+ob.fun1()
+ob.fun2()
