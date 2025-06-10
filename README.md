@@ -1,4 +1,4 @@
-# 👋 Hey there, I’m Hasinipasureddi
+# 👋 Hey there, I’m Hasini Pasupureddi
 
 🌱 **Aspiring Developer** | 💡 Passionate Learner | 🚀 Growing One Line at a Time
 
