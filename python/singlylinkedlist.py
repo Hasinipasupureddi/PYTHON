@@ -105,6 +105,28 @@ class linkedlist:
             prev=cur
             cur=nextnode
         self.head=prev
+        
+    #to find middle value in a linked list- using slow and fast pointers
+    def find_middle(self):
+        slow=self.head
+        fast=self.head
+        while fast.next and fast.next.next:         
+            slow=slow.next                          
+            fast=fast.next.next
+        return slow.value
+        
+    #floyds alogorithm to detect a cycle in a linked list-
+    def detect_cycle(self): 
+        slow=self.head
+        fast=self.head
+        while fast.next and fast.next.next:
+            slow=slow.next
+            fast=fast.next.next
+            if slow==fast:
+                return True
+        return False
+
+
 obj=linkedlist()
 obj.insert(5)
 obj.insert(10)
