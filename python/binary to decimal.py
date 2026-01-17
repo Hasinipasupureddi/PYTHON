@@ -1,4 +1,4 @@
-#binary to decimal
+#binary to decimal conversion 
 def btodec(n):
     p2=1
     t=0
